@@ -29,6 +29,7 @@ public class Main {
             judgment[3] = true;
             judgment[4] = true;
             // Задание 2
+
             for (int i = 0; i < numbers.length; i++)  {
                 System.out.print(numbers[i]);
                 if (i != numbers.length - 1) {
@@ -49,6 +50,7 @@ public class Main {
             System.out.println( );
             System.out.println( );
             // Задание 3
+
             for (int i = numbers.length - 1; i >= 0 ; i--)  {
                 System.out.print(numbers[i]);
                 if (i != 0) {
@@ -68,6 +70,7 @@ public class Main {
             }
             System.out.println( );
             System.out.println( );
+
             // Задание 4
             for (int i = 0; i < numbers.length; i++)  {
                 if (numbers[i] % 2 == 1) {
